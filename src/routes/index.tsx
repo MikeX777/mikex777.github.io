@@ -1,6 +1,7 @@
 import * as fs from 'node:fs'
 import { createFileRoute, useRouter } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
+import { Stack, Typography, Button } from '@mui/material'
 
 const filePath = 'count.txt'
 
@@ -34,17 +35,12 @@ function Home() {
 
   return (
     <>
-      <h1>Hello</h1>
-      <button
-        type="button"
-        onClick={() => {
-          updateCount({ data: 1 }).then(() => {
-            router.invalidate()
-          })
-        }}
-      >
-        Add 1 to {state}?
-      </button>
+      <Stack alignItems="center">
+        <Typography variant="h1" marginBlockEnd={4}>
+          Hello World!
+        </Typography>
+        <Button variant="contained">This is a Button</Button>
+      </Stack>
     </>
   )
 }
