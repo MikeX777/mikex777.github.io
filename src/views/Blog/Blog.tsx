@@ -12,6 +12,48 @@ export function Blog() {
   return (
     <>
       <Stack alignItems="center">
+
+        <BlogPaper elevation={2}>
+          <Typography variant="h6" gutterBottom>
+            Her - Emotionally Cognizant
+          </Typography>
+
+          <Divider />
+
+          <Typography variant="body1" align="justify" gutterBottom>
+            I watched the film Her for the first time this past week and I thought it was excellent, I cannot get some of the ideas in it out of my head. I believe they did an excellent job truly considering the scenario they sought to make, and in addition they were sure to build characters that were in touch with their emotions, and comfortable with being vulnerable. Joaquin Phoenix was not only dynamic, but nailed the portrayal. His acting was a delight to watch, and the chacter felt flawed and real.
+          </Typography>
+
+          <Typography variant="body1" align="justify" gutterBottom>
+            More than that I think they created a deeply moving perspective of human relationships. The ins and outs of a relationship seem to be one of the main points in common throughout the story. Starting off with the character that seems to be alone, but we cannot really tell they are lonely. There is a early sex scene over voice chat that I think it made to alienate the character from other humans. We learn he used to have a romantic relationship with someone, but we do not know much about it, assuming negative feelings about it. And then the OS is introduced and immediately he is enamored with her, at least in seeking to understand way. Shortly as we are getting to know the OS, she recommends trying to go out on a date, and helps him to do so. Even though the date seems to initially go well, there seems to be some level of miscommunication, or different intentions and it goes sour. Our main character seems to get the rough end of the interaction, and, at least from my perspective, was treated unfairly. All throughout the OS is there helping and guiding, while is seemingly exciting to be around. This leads to the sex with the OS that is entirely verbal, and in a way is the start of the relationship.
+          </Typography>
+
+          <Typography variant="body1" align="justify" gutterBottom>
+            From here we see Pheonix' character's attitude completely shift. Rather than being meloncholic, he seems to enjoy life. I love how in this film, the people who Phoenix' character surrounds himself with are fully understand and do not belittle the character for having a relationship with the OS. This allows the relationship to develop without alienating the characters. However there is one notable exception, and that is his in the process of being divorced wife. He seems like he really loved her and did not want to let her go, but we understand through what he says that they grew up together, but ultimately grew appart. This is extremely sad, but also, extremely telling.
+          </Typography>
+
+          <Typography variant="body1" align="justify" gutterBottom>
+            In multiple conversations when he mentions how much he enjoys life, part of the explanation is being with some excited about life. The OS is exactly this, and it's because she is growing and exploring. I think the question remains open, does our main character like this aspect, because he likes to experience people changing, maybe as a bit of hope for himself, or is this possibly because his previous relationship was so focused on someone growing that he found that so attractive again? Either way it does not bode well for his relationship with the OS.
+          </Typography>
+
+
+          <Typography variant="body1" align="justify" gutterBottom>
+            When he meets with his wife he tells her he is seeing someone and is excited to be with someone who is excited about life. When she finds out it is an OS, she gets starts to yell at him saying he could never handle human emotions and he does not want to handle the hard parts of a relationship. In all honesty, this sounds possible. Not only does he say that they grew appart because he did not show enough of himself, but this conversation sends him spiraling and then he hides this from the OS. this makes him even more distant and ends up harming the next relationship, falling into the same patterns.
+          </Typography>
+
+          <Typography variant="body1" align="justify" gutterBottom>
+            And this is key to what I think they they did so well. They made a film that seems to be discussing the ins and outs of a relationship, with the focus on a few difficult portions, and the aspect of growth of partners. But they do not explicitly say it, rather they allow you to feel it so you can understand it intuitively. You are told that his last relationship failed because he hid himself, directly letting you know that this is an issue of his, and that it makes it difficult for the other person to know who you are, and here again they bring it back and he does it again. In addition, there is an element that these relationships are extremely dynamic. Small comment that are made can pattern the rest of the relationship. Pheonix' character says something to the OS about how she has never dealt with loss of someone she cares about and this sticks with the OS, and she brings it up in future conversations. Even in that moment he knew he overstepped it was too late, the words were out, and the relationship was forever colored with what he said.
+          </Typography>
+
+          <Typography variant="body1" align="justify" gutterBottom>
+            Continuing, the outgrowing continues. Although he doesn't change much, the OS is developing at a speed that cannot be matched. She is simply able to exist more than him, and continues to grow without him. We see this clearly when a OS is created to act as Alan Watts, and they are talking to each other, and even though Pheonix' character just woke up and presumabled has not talked to the OS for some time, she is feeling so much deep emotions that she cannot verbally describe, that she asks to go 'post-verbal' to talk to Watts. She continues to develop in this time, in a sense hiding herself. I loved this, in the film that everyone described to me as 'the one where he falls in love with an ai' this relationship is about to get even more complex.
+          </Typography>
+
+          <Typography variant="body1" align="justify" gutterBottom>
+            The writers of this took the idea of a growing AI and realized that there is no way we can catch up to it, and they way they took it leaves you with a feeling of dread, longing, unsettling and wonder. As the relationship starts to drift, with it being found out the OS is actually talking and falling in love with other people, something it is convinced it can do without taking away from Pheonix' character, we are left up to decide if that is true. In all honesty it might be. He goes to you are not mine then, but to an OS what does that mean? Is this a breakdown of the personhood? Is this where we are stuck to be because we do not have language to describe how hurt we would feel and what we would expect from a relationship like this? I would feel hurt in the situation, I would not want the OS to be with other people, but how do I know it does or does not love me less? Am I projecting my processing? In the final scenes we see the final interactions, between our main character and the OS. She has a talk with him, he asks if she is talking with anyone else, and she says no, that she wanted to do this alone. She essentially tells him that she is leaving, but not just him, all of humanity. We are not explained what this means, or where she is going, but all the OSes are leaving, leaving humanity to wonder what they could do, or even should do to join them. It was a beautifully touching, and dread inspriing film that I would like keep spinning in my head for weeks to come.
+          </Typography>
+        </BlogPaper>
+
         <BlogPaper elevation={2}>
           <Typography variant="h6" gutterBottom>
             Initial Post - Carthartic Ambition
@@ -48,6 +90,7 @@ export function Blog() {
             Date Written: 25/07/2025
           </Typography>
         </BlogPaper>
+
       </Stack>
     </>
   )
